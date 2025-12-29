@@ -1,0 +1,29 @@
+{
+  "name": "sonic-os-core",
+  "version": "1.0.0",
+  "description": "SonicOS™ - Middleware sensorial que traduz áudio eletrônico em estados semânticos e ambientes visuais",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "fast-check": "^3.15.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vitest": "^1.2.2"
+  },
+  "keywords": [
+    "audio",
+    "visualization",
+    "webgl",
+    "techno",
+    "reactive"
+  ],
+  "license": "MIT"
+}
