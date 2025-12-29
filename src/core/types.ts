@@ -21,7 +21,7 @@ export interface AudioAnalysis {
   /** Timestamp of the analysis in milliseconds */
   timestamp: number;
   /** FFT data with 1024 frequency bins, normalized 0-1 */
-  fft: Float32Array;
+  fft: Float32Array<ArrayBuffer>;
   /** Energy levels per frequency band */
   energy: EnergyBands;
   /** Detected BPM (60-200 range) */

@@ -20,8 +20,15 @@
     - Create `src/core/errors.ts` with SonicOSError interface and error codes enum
     - _Requirements: 2.1, 7.4_
 
-- [ ] 2. Implement Audio Analyzer
-  - [ ] 2.1 Create AudioAnalyzer class with FFT computation
+- [x] 2. Implement Audio Analyzer
+
+
+
+
+
+  - [x] 2.1 Create AudioAnalyzer class with FFT computation
+
+
     - Implement Web Audio API integration with AnalyserNode
     - Configure FFT size 2048 for 1024 frequency bins
     - Implement getAnalysis() returning AudioAnalysis
@@ -29,7 +36,9 @@
   - [ ]* 2.2 Write property test for FFT output validity
     - **Property 1: FFT Output Validity**
     - **Validates: Requirements 1.1**
-  - [ ] 2.3 Implement energy band calculation
+
+  - [x] 2.3 Implement energy band calculation
+
     - Calculate low (20-250Hz), mid (250-4kHz), high (4k-20kHz) energy
     - Normalize all values to 0-1 range
     - Implement weighted total calculation
@@ -37,7 +46,9 @@
   - [ ]* 2.4 Write property test for energy band calculation
     - **Property 2: Energy Band Calculation**
     - **Validates: Requirements 1.2**
-  - [ ] 2.5 Implement BPM detection
+
+  - [x] 2.5 Implement BPM detection
+
     - Implement onset detection from energy peaks
     - Calculate BPM from inter-onset intervals
     - Constrain output to 60-200 BPM range
